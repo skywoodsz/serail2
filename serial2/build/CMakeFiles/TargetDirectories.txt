@@ -1,0 +1,3 @@
+/home/skywoodsz/racecar_test/program/serial2/build/CMakeFiles/edit_cache.dir
+/home/skywoodsz/racecar_test/program/serial2/build/CMakeFiles/rebuild_cache.dir
+/home/skywoodsz/racecar_test/program/serial2/build/CMakeFiles/serial2.dir

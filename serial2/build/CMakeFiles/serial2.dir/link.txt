@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -O3 -O3 -DNDEBUG   CMakeFiles/serial2.dir/main.cpp.o CMakeFiles/serial2.dir/pc2mcu.cpp.o  -o serial2 -rdynamic /usr/local/lib/libboost_system.so /usr/local/lib/libboost_thread.so /usr/local/lib/libboost_regex.so /usr/local/lib/libboost_serialization.so -lpthread -Wl,-rpath,/usr/local/lib 
