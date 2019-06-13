@@ -21,3 +21,11 @@ void caculate_Points::draw_txt(int id,double x,double y,string s,double num,ros:
   visual_temp.pose = pose;
   pub.publish(visual_temp);
 }
+
+string str = "the path_c_av = ";
+        draw_txt(1,map_path.poses[0].pose.position.x,
+            map_path.poses[0].pose.position.y,str,c_av,marker_pub);
+
+        str = "the c_turn_av = ";
+        draw_txt(2,map_path.poses[10].pose.position.x,
+            map_path.poses[10].pose.position.y,str,c_turn_av,marker_pub);
